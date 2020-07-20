@@ -9,46 +9,53 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Buzzer</title>
+    <title>Buzzer | Announcement</title>
 
     <!-- Custom styles for this page -->
     <link href="cover.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/erx0tib.css">
 
+    <!-- JS -->
+
+    <script src="script.js"></script>
+
     <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
-<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
-<meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
-<meta name="theme-color" content="#563d7c">
+    <link rel="apple-touch-icon" href="favicon_lighting_bolt.png" sizes="180x180">
+    <link rel="icon" href="favicon_lighting_bolt.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="favicon_lighting_bolt.png">
 
     <style>
     </style>
   </head>
   
-  <body class="text-center">
+  <body>
       
-        <div class="d-flex w-100 h-100 p-3 mx-auto flex-column wrapper">
-            <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-auto">
+        <div class="d-flex w-100 h-100 py-3 px-5 mx-auto flex-column wrapper">
+            <div class="d-flex flex-column flex-md-row align-items-center px-4 mb-auto">
                 <a href="#" class="my-0 mr-md-auto d-inline-block align-top">
-                    <img src="images/buzzer_logo.svg" width="100" height="50" alt="" loading="lazy">
+                    <img src="buzzer_logo.svg" width="200" height="75" alt="" loading="lazy">
                 </a>
                 <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2" href="mailto:contact@buzzer.com">Partners</a>
                 <a class="p-2" href="mailto:career@buzzer.com">Careers</a>
+                <a class="p-2" href="#">Community</a>
                 </nav>
             </div>
 
-            <main role="main" class="inner cover mx-auto">
-                <h1 class="cover-heading mb-4">Never miss another historic sports moment again.</h1>
-                <!-- <p class="lead">With Buzzer, we’re a mobile first, notification-driven platform for live sports, personalized to your interests & preferences.</p> -->
-                <div class="button-slanted btn btn-lg">
+            <main role="main" class="inner cover">
+                <h1 class="cover-heading mb-3">Don't <span class="lightning">miss</span></h1>
+                <p class="lead mb-4">A mobile first, notification-driven platform for live sports, personalized to your interests & preferences.</p>
+                <!--<div class="button-slanted btn btn-lg">
                     <a href="#"><span class="button-slanted-content">Subscribe</span></a>
-                </div>
+                </div>-->
+                <h3>Join The Waitlist Today</h3>
+                <form action="https://formspree.io/xdowpljv" method="POST" class="button-slanted mb-2">
+                    <input type="email" name="_replyto" placeholder="Enter email">
+                    <input type="submit" value="Subscribe" 
+                    class="slant">
+                </form>
+                <p>We won’t send you spam. Check out our <span class="lightning">Privacy Policy.</span></p>
             </main>
 
             <footer class="grandfoot mt-auto">
