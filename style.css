@@ -2,3 +2,8 @@
 body {background-color: #000000;}
 
 h1 {color:white;}
+
+.cover-privacy {
+    padding: 0 1.5rem;
+    width: 70em;
+}
