@@ -3,7 +3,23 @@ body {background-color: #000000;}
 
 h1 {color:white;}
 
-.cover-privacy {
+.cover-privacy, .cover-strive {
     padding: 0 1.5rem;
     width: 70em;
 }
+
+main ul {
+    list-style-type: none
+}
+
+main li {
+    float: none;
+  }
+
+  main li {
+  padding: 16px;
+  }
+
+  .cover-error {
+    width: 60em;
+  }
