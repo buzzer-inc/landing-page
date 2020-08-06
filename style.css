@@ -3,23 +3,25 @@ body {background-color: #000000;}
 
 h1 {color:white;}
 
-.cover-privacy, .cover-strive {
-    padding: 0 1.5rem;
-    width: 70em;
-}
-
 main ul {
-    list-style-type: none
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-main li {
-    float: none;
-  }
 
-  main li {
+main ul li {
+  display: inline-block; 
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.25rem;
   padding: 16px;
   }
 
-  .cover-error {
-    width: 60em;
+  .error-h1 {color:#E7CC3C;}
+
+
+  main ul li:nth-child(1) {
+    padding-left: 0px;
   }
