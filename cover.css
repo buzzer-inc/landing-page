@@ -129,7 +129,7 @@ input[type="email" i] {
 
 .cover-privacy, .cover-strive {
     padding: 0 1.5rem;
-    width: 70em;
+    width: 70%;
 }
 
 /* Footer */
@@ -145,10 +145,11 @@ input[type="email" i] {
 
 /* Responsive Styles */
 
+
 @media only screen and (max-width: 768px) {
    h1 {font-size: 2.0rem; line-height: 1.5;}
 
-   .cover, .cover-error, .cover-strive {padding: 0 .5rem; width: 100%;}
+   .cover, .cover-error, .cover-strive, .cover-privacy {padding: 0 .5rem; width: 100%;}
 
    .wrapper img {width: 150px; height: 75px;}
 
