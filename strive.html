@@ -16,9 +16,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/erx0tib.css">
 
-    <!-- JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <!-- JS -->
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="favicon_lighting_bolt.png" sizes="180x180">
@@ -31,29 +34,139 @@
   
   <body>
       
-        <div class="d-flex w-100 h-100 py-3 px-5 mx-auto flex-column wrapper">
-            <div class="d-flex flex-column flex-md-row align-items-center px-4 mb-auto">
+        <div class="d-flex w-100 h-100 py-3 px-5 mx-auto flex-column">
+            <div class="d-flex flex-column flex-md-row align-items-center px-4 mb-auto wrapper">
                 <a href="index.html" class="my-0 mr-md-auto d-inline-block align-top">
                     <img src="buzzer_logo.svg" width="200" height="75" alt="" loading="lazy">
                 </a>
                 <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2" href="mailto:contact@buzzer.com">Partners</a>
-                <a class="p-2" href="mailto:jobs@buzzer.com">Careers</a>
-                <a class="p-2" href="strive.html">Community</a>
+                <a class="p-2" data-toggle="tooltip" data-placement="top" 
+                title="Reach out to us if you’re interested in partnership opportunities!" href="mailto:contact@buzzer.com">Partners</a>
+                <a class="p-2" data-toggle="tooltip" data-placement="top" 
+                title="Let us know if you’re interested in joining the buzzer team!" href="mailto:jobs@buzzer.com">Careers</a>
+                <a class="p-2" data-toggle="tooltip" data-placement="top" 
+                title="Buzzer’s intentional commitment to level the playing field" href="strive.html">Community</a>
                 </nav>
             </div>
 
             <main role="main" class="inner cover-strive">
-                <h1 class="cover-heading mb-3"><span class="lightning">Strive</span> Mentorship Program</h1>
+                <img src="strive-logo-red.svg" width="175" height="75" alt="" loading="lazy">
+                
                 <p>Strive is Buzzer’s intentional commitment to level the playing field for Black communities and communities of color who are underserved, underrepresented, and underinvested, leveraging the technology of sport and 1% of the company. 1% equity manifests itself in a) access to resources and, b) meaningful contributions to organizations committed to sustainable change, equitable hiring practices, etc.</p>
                 <p>Additionally, 1% of net profits will be donated to organizations with aligned commitments to reinvest into these communities. Lastly, our community of customers will be empowered to donate 1% of their micropayment to partnering organizations to maximize our impact.</p>
+
+                <h2 class="cover-heading mb-3">Mentorship Program</h2>
+                <p>Strive Mentorship Program aims to connect Black students enrolled in HBCUs  with  experienced individuals across a variety of industries. Through six facilitated sessions, Mentees and Mentors will discuss topics ranging from professional/career goals, leadership qualities, to identifying strengths and weaknesses. </p>
+
+                <h3>Winter Session</h3>
+                <a href="https://forms.gle/PM1Z9A4KWSzM6D2R7" class="signup btn">Mentor Sign-up</a>
+                <a href="https://forms.gle/SyeNH3EPNusLJkB37" class="signup btn">Mentee Sign-up</a>
+
+                <!-- Set up your HTML -->
+                <h3>Testimonials</h3>
+                <div class="my-slider">
+                    <div> 
+                        <p>My mentor is super nice and casual which makes her easy to talk to. It’s interesting learning about her work as well.</p>
+                        <h6>Mentee, Mia</h6>
+                    </div>
+                    <div> 
+                        <p>Connected with my mentee last week. Seems we’re perfect for each other!</p>
+                        <h6>Mentor, Erwin</h6>
+                    </div>
+                    <div> 
+                        <p>This is going really well, thanks for organizing. My mentee even asked if there was still a chance for others to get involved as her sister is also in college and wanted to apply.</p>
+                        <h6>Mentor, Kyle</h6>
+                    </div>
+                    <div> 
+                        <p>This is going really well, thanks for organizing. My mentee even asked if there was still a chance for others to get involved as her sister is also in college and wanted to apply.</p>
+                        <h6>Mentor, Kyle</h6>
+                    </div>
+                  </div>
+
+
+<!--                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height:200px;">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" style="padding: 5% 10% 0% 10%;">
+                      <div class="carousel-item active">
+                        <p>My mentor is super nice and casual which makes her easy to talk to. It’s interesting learning about her work as well.</p>
+                        <h6>Mentee, Mia</h6>
+                      </div>
+                      <div class="carousel-item">
+                        <p>Connected with my mentee last week. Seems we’re perfect for each other!</p>
+                        <h6>Mentor, Erwin</h6>
+                      </div>
+                      <div class="carousel-item">
+                        <p>This is going really well, thanks for organizing. My mentee even asked if there was still a chance for others to get involved as her sister is also in college and wanted to apply.</p>
+                        <h6>Mentor, Kyle</h6>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+-->
             </main>
 
             <footer class="grandfoot mt-auto">
                 <div class="inner">
-                    <p>Follow us on social - <a target="_blank" href="https://www.linkedin.com/company/buzzer-inc/">LinkedIn</a>, <a target="_blank" href="https://twitter.com/buzzer">Twitter</a>, <a target="_blank" href="https://instagram.com/buzzer">Instagram</a>.</p>
+                    <p>Follow us on social - 
+                    <a target="_blank" href="https://www.linkedin.com/company/buzzer-inc/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                    <a target="_blank" href="https://twitter.com/buzzer"> <i class="fab fa-twitter fa-lg"></i></a>
+                    <a target="_blank" href="https://instagram.com/buzzer"><i class="fab fa-instagram fa-lg"></i></a></p>
                 </div>
             </footer>
         </div>
-    </body>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+    <script src="https://kit.fontawesome.com/221762dc87.js" crossorigin="anonymous"></script>
+
+    <script>
+    var slider = tns({
+        container: '.my-slider',
+        "items": 1,
+        "loop": false,
+        "nav": true,
+        "controls": false,
+        "mouseDrag": true,
+        "swipeAngle": false,
+        "navPosition": "bottom",
+        "speed": 400,
+        responsive: {
+        640: {
+            edgePadding: 20,
+            gutter: 20,
+            items: 2
+        },
+        700: {
+            gutter: 30
+        },
+        900: {
+            items: 3
+        }
+        }
+    });
+    </script>   
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+  </body>
 </html>

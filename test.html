@@ -44,11 +44,49 @@
             </div>
 
             <main role="main" class="inner cover mx-auto">
-                <h1 class="cover-heading mb-4">Never miss another historic sports moment again.</h1>
-                <!-- <p class="lead">With Buzzer, we’re a mobile first, notification-driven platform for live sports, personalized to your interests & preferences.</p> -->
-                <div class="button-slanted btn btn-lg">
-                    <a href="#"><span class="button-slanted-content">Subscribe</span></a>
-                </div>
+                <!--<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                    Tooltip on top
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                    Tooltip on right
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+                    Tooltip on bottom
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+                    Tooltip on left
+                  </button>
+
+                <h2 class="cover-heading mb-4">Never miss another historic sports moment again.</h1>-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height:200px;">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" style="padding: 10% 15% 0% 15%;">
+                      <div class="carousel-item active">
+                        <p>My mentor is super nice and casual which makes her easy to talk to. It’s interesting learning about her work as well.</p>
+                        <h6>Mentee, Mia</h6>
+                      </div>
+                      <div class="carousel-item">
+                        <p>Connected with my mentee last week. Seems we’re perfect for each other!</p>
+                        <h6>Mentor, Erwin</h6>
+                      </div>
+                      <div class="carousel-item">
+                        <p>This is going really well, thanks for organizing. My mentee even asked if there was still a chance for others to get involved as her sister is also in college and wanted to apply.</p>
+                        <h6>Mentor, Kyle</h6>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
             </main>
 
             <footer class="grandfoot mt-auto">
@@ -57,5 +95,18 @@
                 </div>
             </footer>
         </div>
-    </body>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+  </body>
 </html>

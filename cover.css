@@ -67,12 +67,26 @@ nav a:hover {
     color: #EE3E40;
 }
 
-
 /* Links */
 a,
 a:focus,
 a:hover {
   color: #fff;
+}
+
+/* Social Icons */
+
+.tns-nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.tns-outer {
+    margin: 1rem 0rem;
+}
+
+.inner .fab {
+    margin: 0px 10px;
 }
 
 /* Custom slanted button */
@@ -98,6 +112,21 @@ a:hover {
     border-radius: 0;
 }
 
+/* Button */
+
+.signup {
+    background-color: #E7CC3C;
+    border: none;
+    border-radius: 0;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-shadow: none;
+}
+
+.signup:hover {
+    background-color: #EE3E40;
+    color: #0B0B0D !important;
+}
 
 /* Form */
 
@@ -132,6 +161,8 @@ input[type="email" i] {
     width: 70%;
 }
 
+.cover-strive h3 {margin-top: 1.0rem;}
+
 /* Footer */
 .grandfoot {
   color: rgba(255, 255, 255, .5);
@@ -150,6 +181,8 @@ input[type="email" i] {
    h1 {font-size: 2.0rem; line-height: 1.5;}
 
    .cover, .cover-error, .cover-strive, .cover-privacy {padding: 0 .5rem; width: 100%;}
+
+   main img {width: 150px; height: 50px;}
 
    .wrapper img {width: 150px; height: 75px;}
 

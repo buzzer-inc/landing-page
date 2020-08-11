@@ -37,9 +37,12 @@
                     <img src="buzzer_logo.svg" width="200" height="75" alt="" loading="lazy">
                 </a>
                 <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2" href="mailto:contact@buzzer.com">Partners</a>
-                <a class="p-2" href="mailto:jobs@buzzer.com">Careers</a>
-                <a class="p-2" href="strive.html">Community</a>
+                <a class="p-2" data-toggle="tooltip" data-placement="top" 
+                title="Reach out to us if you’re interested in partnership opportunities!" href="mailto:contact@buzzer.com">Partners</a>
+                <a class="p-2" data-toggle="tooltip" data-placement="top" 
+                title="Let us know if you’re interested in joining the buzzer team!" href="mailto:jobs@buzzer.com">Careers</a>
+                <a class="p-2" data-toggle="tooltip" data-placement="top" 
+                title="Buzzer’s intentional commitment to level the playing field" href="strive.html">Community</a>
                 </nav>
             </div>
 
@@ -60,7 +63,19 @@
                     <p>Follow us on social - <a target="_blank" href="https://www.linkedin.com/company/buzzer-inc/">LinkedIn</a>, <a target="_blank" href="https://twitter.com/buzzer">Twitter</a>, <a target="_blank" href="https://instagram.com/buzzer">Instagram</a>.</p>
                 </div>
             </footer>
-        </div>
-    </body>
+
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+  </body>
 </html>
 
