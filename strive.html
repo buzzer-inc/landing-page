@@ -40,12 +40,10 @@
                     <img src="buzzer_logo.svg" width="200" height="75" alt="" loading="lazy">
                 </a>
                 <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2" data-toggle="tooltip" data-placement="top" 
-                title="Reach out to us if you’re interested in partnership opportunities!" href="mailto:contact@buzzer.com">Partners</a>
-                <a class="p-2" data-toggle="tooltip" data-placement="top" 
-                title="Let us know if you’re interested in joining the buzzer team!" href="mailto:jobs@buzzer.com">Careers</a>
-                <a class="p-2" data-toggle="tooltip" data-placement="top" 
-                title="Buzzer’s intentional commitment to level the playing field" href="strive.html">Community</a>
+                    <a class="p-2" data-toggle="tooltip" data-placement="top" title="Buzzer’s intentional commitment to level the playing field" href="strive.html">Strive</a>                    
+                    <a class="p-2" data-toggle="tooltip" data-placement="top" 
+                    title="Let us know if you’re interested in joining the buzzer team" href="mailto:jobs@buzzer.com">Careers</a>
+                    <a class="p-2" data-toggle="tooltip" data-placement="top" title="Reach out to us if you’re interested in partnership opportunities" href="mailto:contact@buzzer.com">Contact Us</a>
                 </nav>
             </div>
 
@@ -67,32 +65,42 @@
                 <hr>
                   <div class="my-slider">
                       <div> 
+                        <i class="fas fa-quote-left"></i>
                           <p>My mentor is super nice and casual which makes her easy to talk to. It’s interesting learning about her work as well.</p>
                           <h6>Mentee, Mia</h6>
                       </div>
-
                       <div> 
+                        <i class="fas fa-quote-left"></i>
+                        <p>Through the strive initiative I have received a mentor who’s thoughtful, candid and experienced. Mr. Saunders has openly shared his career and life journey with me in hopes I will become just as great as him without making some of the same mistakes he did.</p>
+                        <h6>Mentor, Kalu</h6>
+                      </div> 
+                      <div> 
+                        <i class="fas fa-quote-left"></i>
                           <p>This is going really well, thanks for organizing. My mentee even asked if there was still a chance for others to get involved as her sister is also in college and wanted to apply.</p>
                           <h6>Mentor, Kyle</h6>
                       </div>
                       <div> 
+                        <i class="fas fa-quote-left"></i>
                         <p>My Strive Summer Mentor is truly amazing. Very knowledgeable on a number of things, is very helpful and caring, and goes above and beyond to be a resource for me.</p>
                         <h6>Mentee, Jaylin</h6>
                       </div>   
                       <div> 
+                        <i class="fas fa-quote-left"></i>
                         <p>Connected with my mentee last week. Seems we’re perfect for each other!</p>
                         <h6>Mentor, Erwin</h6>
                       </div>  
+
                     </div>
-                  <hr> 
             </main>
 
             <footer class="grandfoot mt-auto">
                 <div class="inner">
-                    <p>Follow us on social - 
-                    <a target="_blank" href="https://www.linkedin.com/company/buzzer-inc/"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                    <a target="_blank" href="https://twitter.com/buzzer"> <i class="fab fa-twitter fa-lg"></i></a>
-                    <a target="_blank" href="https://instagram.com/buzzer"><i class="fab fa-instagram fa-lg"></i></a></p>
+                    <p>Connect - 
+                        <a target="_blank" href="https://www.linkedin.com/company/buzzer-inc/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a target="_blank" data-toggle="tooltip" data-placement="top" title="@buzzer" href="https://twitter.com/buzzer"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a target="_blank" data-toggle="tooltip" data-placement="top" title="@buzzer" href="https://instagram.com/buzzer"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a target="_blank" data-toggle="tooltip" data-placement="top" title="contact@buzzer.com" href="mailto:contact@buzzer.com"><i class="fas fa-envelope fa-lg"></i></a>
+                    </p>
                 </div>
             </footer>
         </div>
@@ -112,24 +120,26 @@
     var slider = tns({
         container: '.my-slider',
         "items": 1,
-        "loop": false,
+        "loop": true,
         "nav": true,
         "controls": false,
         "mouseDrag": true,
         "swipeAngle": false,
         "navPosition": "bottom",
+        "autoplay": true,
+        "autoplayButton": false,
         "speed": 400,
         responsive: {
         640: {
             edgePadding: 20,
             gutter: 20,
-            items: 2
+            items: 1
         },
         700: {
             gutter: 30
         },
         900: {
-            items: 3
+            items: 1
         }
         }
     });

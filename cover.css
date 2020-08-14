@@ -41,7 +41,7 @@ p {
     font-style: normal;
     opacity: 0.76;
 }
-hr {margin: 1rem 1rem; border-color: darkgrey;}
+hr {margin: 1rem 1rem; border-color: rgb(169,169,169, .25);}
 
 .lead {
     font-size: 1.15rem;
@@ -96,7 +96,16 @@ a:hover {
 
 .tns-nav > .tns-nav-active { background: #999; }
 
+.tns-item p {text-align: center;}
+.tns-item h6 {text-align: center;}
+.tns-outer button {display: none;}
+
+
 .inner .fab {
+    margin: 0px 10px;
+}
+
+.inner .fas {
     margin: 0px 10px;
 }
 
