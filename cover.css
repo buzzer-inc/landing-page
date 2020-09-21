@@ -182,7 +182,12 @@ input[type="email" i] {
     width: 70%;
 }
 
-.cover-strive h3 {margin-top: 1.0rem;}
+.cover-press {
+    padding: 0 1.5rem;
+    width: 80%;
+}
+
+.cover-strive, .cover-press h3 {margin-top: 1.0rem;}
 
 
 /* Strive */
@@ -195,6 +200,18 @@ input[type="email" i] {
     box-shadow: none;
   }
 
+.btn {text-align: left;}
+
+.btn-link {
+    color: white;
+}
+
+.btn-link:hover {
+    color: #EE3E40;
+    text-decoration: underline;
+}
+
+.accordion { background-color: rgb(16,17,18);}
 
 /* Footer */
 .grandfoot {
@@ -206,46 +223,3 @@ input[type="email" i] {
 }
 
 .lightning {color:#E7CC3C;}
-
-/* Responsive Styles */
-
-
-@media only screen and (max-width: 768px) {
-   h1 {font-size: 2.0rem; line-height: 1.5;}
-
-   .cover, .cover-error, .cover-strive, .cover-privacy {padding: 0 .5rem; width: 100%;}
-
-   main img {width: 150px; height: 50px;}
-
-   .wrapper img {width: 150px; height: 75px;}
-
-   html, body {
-        background: url('transparent-ipad.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-   }
-
-   main ul {padding: 20px;}
-}
-
-@media (max-width: 500px) {
-
-    .px-5 {padding-left: 1rem!important; padding-right: 1rem!important;}
-
-    input[type="email" i] { width: 210px; }
-
-    [type=submit] { padding: 10px 15px; }
-
-    html, body {
-        background: url('transparent-phone.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    }
-    main ul li:nth-child(5) {
-        padding-left: 0px;
-      }
- }
