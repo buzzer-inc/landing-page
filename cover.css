@@ -170,7 +170,6 @@ a { color: rgba(255,255,255, .76); }
 
 /* Custom slanted button */
 
-
     .button-slanted-content {
     display: inline-block;
     text-transform: uppercase;
@@ -283,6 +282,15 @@ input[type="email" i] {
 .cover, .cover-error {padding: 0 .5rem; width: 100%;}
 }
 
+@media only screen and (max-width: 992px) {
+    .nav-item {padding: .5rem 0rem;}
+    .nav-item a {padding-left: 0rem!important;} 
+    .px-5 {display: block !important;}
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
     h1 {font-size: 1.75rem; line-height: 1.5;}
  
@@ -290,7 +298,7 @@ input[type="email" i] {
      .cover-error, .cover {
         padding: 0 .5rem; 
         width: 100%; 
-        margin: 100px 0px 50px !important;
+        margin: 80px 0px 50px !important;
     }
 
     footer {padding: 0 .5rem; width: 100%; }
@@ -303,9 +311,7 @@ input[type="email" i] {
      padding: 0px 0.5rem;
    }
 
-   .nav-item {padding: .5rem 0rem;}
 
-   .nav-item a {padding-left: 0rem!important;}
  
     html, body {
          background-repeat: no-repeat;
