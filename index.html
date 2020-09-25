@@ -13,8 +13,14 @@
         gtag('config', 'UA-177868491-1');
         </script>
 
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org/",
+            "@type": 
+         </script>
+
         <!-- Primary Meta Tags -->
-        <title>Buzzer | Don't Miss</title>
+        <title>Buzzer | A notification-driven app to watch live sports</title>
         <meta name="title" content="Buzzer | Don't Miss">
         <meta name="description" content="Buzzer allows sports fans to discover the live moments that matter the most to them. Buzzer is the best way to catch and experience “lightning in a bottle” moments live from anywhere. ">
 
@@ -31,6 +37,9 @@
         <meta property="twitter:title" content="Buzzer | Don't Miss">
         <meta property="twitter:description" content="Buzzer allows sports fans to discover the live moments that matter the most to them. Buzzer is the best way to catch and experience “lightning in a bottle” moments live from anywhere. ">
         <meta property="twitter:image" content="https://www.buzzer.com/buzzer-blk-1200x800.png">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
     <!-- Bootstrap CSS -->
@@ -60,27 +69,44 @@
   <body>
       
         <div class="d-flex w-100 h-100 py-3 px-5 mx-auto flex-column wrapper">
-            <div class="d-flex flex-column flex-md-row align-items-center px-4 mb-auto">
-                <a href="index.html" class="my-0 mr-md-auto d-inline-block align-top">
-                    <img src="buzzer_logo.svg" width="200" height="75" alt="" loading="lazy">
-                </a>
-                <nav class="my-2 my-md-0 mr-md-3">
-                    <a class="p-2" data-toggle="tooltip" data-placement="top" title="Buzzer’s intentional commitment to level the playing field" href="strive.html">Strive</a>                    
-                    <a class="p-2" data-toggle="tooltip" data-placement="top" 
-                    title="Let us know if you’re interested in joining the Buzzer team" href="mailto:jobs@buzzer.com">Careers</a>
-                    <a class="p-2" data-toggle="tooltip" data-placement="top" title="Reach out to us if you’re interested in partnership opportunities" href="mailto:contact@buzzer.com">Contact Us</a>
+            <div class="d-flex flex-column flex-md-row align-items-center mb-auto">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent w-100">
+                  <a href="index.html" class="my-0 mr-md-auto d-inline-block align-top logo">
+                    <img src="buzzer_logo.svg" width="200" height="75" alt="Buzzer logo" loading="lazy">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0 justify-content-end">
+                      <li class="nav-item active">
+                        <a class="py-2 px-3" data-toggle="tooltip" data-placement="top" title="Buzzer’s intentional commitment to level the playing field" href="strive.html">Strive</a>                    
+                      </li>
+                      <li class="nav-item">
+                        <a class="py-2 px-3" data-toggle="tooltip" data-placement="top" 
+                        title="Let us know if you’re interested in joining the Buzzer team" href="https://www.linkedin.com/company/buzzer-inc/" target="_blank">Careers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="py-2 px-3" data-toggle="tooltip" data-placement="top" title="Reach out to us if you’re interested in partnership opportunities" href="mailto:contact@buzzer.com">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
                 </nav>
             </div>
 
-            <main role="main" class="inner cover">
-                <h1 class="cover-heading mb-3">Don't <span class="lightning">miss</span></h1>
-                <p class="lead mb-4">A mobile first, notification-driven platform for live sports, personalized to your interests & preferences.</p>
-                <h3>Join The Waitlist Today</h3>
-                <form action="https://formspree.io/xdowpljv" method="POST" class="button-slanted mb-2">
-                    <input type="email" name="_replyto" placeholder="Enter email">
-                    <input type="submit" value="Subscribe" 
-                    class="slant">
-                </form>
+            <main class="inner cover">
+                <h1 class="cover-heading my-4">Live sports. <br> Real-time notifications.<br> Personalized to your preferences.</h1>
+                <h1><span class="lightning" style="">Don't Miss.</span></h1>
+                <p class="lead my-4">Our mission is to simplify the discovery of live moments and make them seamless to watch. Buzzer takes fans from league to league and game to game, instantaneously. We celebrate our community of fans who are fueled by their passion for sports.</p>
+                
+                <p>Sign up to be in the first group of fans to experience the most exciting sports moments through Buzzer.</p>
+                <div class="beta-form">
+                  <form action="https://formspree.io/xdowpljv" method="POST" class="button-slanted mt-4 mb-2">
+                      <input type="email" name="_replyto" placeholder="Enter email">
+                      <input type="submit" value="Subscribe" 
+                      class="slant">
+                  </form>
+                 </div>
                 <p>Check out our <a href="privacy-policy.html" class="lightning">Privacy Policy.</a></p>
             </main>
 
@@ -94,7 +120,7 @@
                     </p>
                 </div>
             </footer>
-
+        </div>
         
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

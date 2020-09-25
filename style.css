@@ -59,24 +59,6 @@ main ul li {
     margin: 0px 10px;
 }
 
-/* Cover */
-.cover {
-  padding: 0 1.5rem;
-  width: 40em;
-}
-
-.cover-error {
-    width: 60em;
-  }
-
-.cover-privacy, .cover-strive {
-    padding: 0 1.5rem;
-    width: 70%;
-}
-
-.cover-strive h3 {margin-top: 1.0rem;}
-
-
 /* Strive */
 .strive-sub {color:white; font-size: 22px;opacity: 1;}
 
@@ -89,16 +71,11 @@ main ul li {
 
 .btn {text-align: left;}
 
-.accordion { background-color: rgb(16,17,18);}
-
 /* Footer */
 .grandfoot {
   color: rgba(255, 255, 255, .5);
 }
 
-.inner a:hover {
-    color: #EE3E40;
-}
 
 .lightning {color:#E7CC3C;}
 
@@ -109,9 +86,9 @@ main ul li {
   background-color: #E7CC3C;
   text-shadow: none;
   border: none;
-  border-radius: 0;
+  border-radius: 8px;
   font-weight: 600;
-  padding: 10px 15px;
+  padding: 5px 15px;
 }
 
   .btn-primary:hover {
@@ -121,48 +98,3 @@ main ul li {
   .card-body a:hover {color: white;}
 
 
-/* Responsive Styles */
-
-@media only screen and (max-width: 768px) {
-   h1 {font-size: 2.0rem; line-height: 1.5;}
-
-   .cover, .cover-error {padding: 0 .5rem; width: 100%;}
-
-   .cover-strive, .cover-privacy, .cover-press {padding: 0 .5rem; width: 100%; margin: 200px 0px 50px !important;}
-
-   main img {width: 150px; height: 50px;}
-
-   .wrapper img {width: 150px; height: 75px;}
-
-   html, body {
-        background: url('transparent-ipad.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        background-color: #0B0B0D;
-   }
-
-   main ul {padding: 20px;}
-}
-
-@media (max-width: 500px) {
-
-    .px-5 {padding-left: 1rem!important; padding-right: 1rem!important;}
-
-    input[type="email" i] { width: 210px; border-radius: 0px;}
-
-    [type=submit] { padding: 10px 15px; }
-
-    html, body {
-        background: url('transparent-phone.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        background-color: #0B0B0D;
-    }
-    main ul li:nth-child(5) {
-        padding-left: 0px;
-      }
- }
