@@ -32,8 +32,8 @@ h3 {
     font-size: 1.25rem;
 }
 
-h4, h5 {
-    font-family: proxima-nova,sans-serif;
+h2, h4, h5 {
+    font-family: proxima-nova, sans-serif;
 }
 
 p {
