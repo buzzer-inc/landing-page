@@ -310,6 +310,9 @@ input[type="email" i] {
     .wrapper nav {
      padding: 0px 0.5rem;
    }
+    .card img {
+   height: 100%; width: 100%;
+    }
 
 
  
