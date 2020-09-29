@@ -46,14 +46,19 @@
     <!-- JS -->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="Buzzer_favicon_180x180.png" sizes="180x180">
-    <link rel="icon" href="Buzzer_favicon_180x180.png" sizes="16x16" type="image/png">
-    <link rel="mask-icon" href="Buzzer_favicon_180x180.png">
+    <link rel="apple-touch-icon" href="https://s3.amazonaws.com/www.buzzer.com/Buzzer_favicon_180x180.png" sizes="180x180">
+    <link rel="icon" href="https://s3.amazonaws.com/www.buzzer.com/Buzzer_favicon_180x180.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="https://s3.amazonaws.com/www.buzzer.com/Buzzer_favicon_180x180.png">
 
     <style>
       @media (max-width: 500px) {
         html, body {background-position: initial;}
       }
+
+      .card:hover {    
+        box-shadow: 0 30px 40px rgba(0, 0, 0, .4);
+      cursor: pointer;
+      transform: translateY(-10px);}
     </style>
     
   </head>
@@ -74,12 +79,12 @@
                 <li class="nav-item active">
                   <a class="py-2 px-3" data-toggle="tooltip" data-placement="top" title="Buzzer’s intentional commitment to level the playing field" href="strive.html">Strive</a>                    
                 </li>
-                <!--<li class="nav-item active">
+                <li class="nav-item active">
                   <a class="py-2 px-3" data-toggle="tooltip" data-placement="top" title="Latest news and stories on Buzzer" href="press.html">Press</a>                    
-                </li>-->
+                </li>
                 <li class="nav-item">
                   <a class="py-2 px-3" data-toggle="tooltip" data-placement="top" 
-                  title="Let us know if you’re interested in joining the Buzzer team" href="https://www.linkedin.com/company/buzzer-inc/" target="_blank">Careers</a>
+                  title="Let us know if you’re interested in joining the Buzzer team" href="https://www.linkedin.com/company/buzzer-inc/" target="_blank" rel="noopener">Careers</a>
                 </li>
                 <li class="nav-item">
                   <a class="py-2 px-3" data-toggle="tooltip" data-placement="top" title="Reach out to us if you’re interested in partnership opportunities" href="mailto:contact@buzzer.com">Contact Us</a>
@@ -90,31 +95,60 @@
       </div>
 
             <main class="inner cover-press mt-5">
-              <h2 class="cover-heading mb-3">Press</h2>
-              <!--<div class="row">
-                <div class="col-sm-4 py-3">
-                  <div class="card">
-                    <a href="#"><img src="buzzer-blk-1200x800.png" class="card-img-top" alt="Buzzer logo"></a>
+              <h2 class="cover-heading my-3">Press</h2>
+              <div class="row pb-5">
+                <div class="col-sm-4 py-3 d-flex">
+                  <div class="card flex-fill">
+                    <a href="https://www.axios.com/buzzer-live-sports-cord-cutting-571d408e-ca42-4202-9457-9eaaad82117a.html"><img src="press-img/axios-press.jpg" class="card-img-top" target="_blank" rel="noopener" alt="Illustration of a giant foam finger holding a phone"></a>
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content.</p>
-                      <p>September 29, 2020</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Buzzer wants to reinvent live sports consumption</h5>
+                      <p class="card-text">Buzzer, a mobile technology platform that wants to connect fans through live sports while helping existing media rights holders maximize value, has raised $4 million in seed funding, Axios has learned.</p>
+                      <p>September 29th, 2020</p>
+                      <!--<a href="https://www.axios.com/buzzer-live-sports-cord-cutting-571d408e-ca42-4202-9457-9eaaad82117a.html" class="btn btn-primary" target="_blank" rel="noopener">Go somewhere</a>-->
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-4 py-3">
-                  <div class="card">
-                    <a href="#"><img src="buzzer-blk-1200x800.png" class="card-img-top" alt="Buzzer logo"></a>
+                <div class="col-sm-4 py-3 d-flex">
+                  <div class="card flex-fill">
+                    <a href="https://medium.com/lerer-hippeau-ventures/please-welcome-buzzer-a-live-sports-streaming-service-personalized-for-fans-21ef3daa91f8"><img src="press-img/lererhippeau-press.png" class="card-img-top" target="_blank" rel="noopener" alt="Gold Buzzer logo cover image"></a>
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content.</p>
-                      <p>September 29, 2020</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Please welcome Buzzer, a live sports-streaming service personalized for fans</h5>
+                      <p class="card-text">Meet Buzzer, the latest addition to Lerer Hippeau’s portfolio.</p>
+                      <p>September 29th, 2020</p>
                     </div>
                   </div>
                 </div>
-              </div>-->
+                <div class="col-sm-4 py-3 d-flex">
+                  <div class="card flex-fill">
+                    <a href="https://sapphireventures.com/blog/buzzer-how-this-personalized-live-streaming-platform-will-advance-the-customer-experience-and-enhance-the-value-of-sport-media-rights-for-all-stakeholders/"><img src="press-img/sapphire-qa-press.png" class="card-img-top" target="_blank" rel="noopener" alt="Gold Buzzer logo cover image"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Buzzer: How this personalized, live-streaming platform will advance the customer experience and enhance the value of sport media rights for all stakeholders</h5>
+                      <p class="card-text">Q&A between Michael Spirito and Bo Han, founder and CEO, of Buzzer.</p>
+                      <p>September 29th, 2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 py-3 d-flex">
+                  <div class="card flex-fill">
+                    <a href="https://sapphireventures.com/blog/buzzer-how-this-personalized-live-streaming-platform-will-advance-the-customer-experience-and-enhance-the-value-of-sport-media-rights-for-all-stakeholders/"><img src="press-img/lererhippeau-press.png" class="card-img-top" target="_blank" rel="noopener" alt="Gold Buzzer logo cover image"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Lerer Hippeau, Sapphire Sport Lead Buzzer’s $4M Seed Round</h5>
+                      <p class="card-text">Buzzer , a mobile platform for live sports personalized for fans, has announced the close of a $4M round of seed funding led by Lerer Hippeau, a highly active early-stage venture capital fund in N.Y., and Sapphire Sport, a first-of-its-kind venture fund investing in the future of consumer experien...</p>
+                      <p>September 29th, 2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 py-3 d-flex">
+                  <div class="card flex-fill">
+                    <a href="https://sapphireventures.com/blog/buzzer-how-this-personalized-live-streaming-platform-will-advance-the-customer-experience-and-enhance-the-value-of-sport-media-rights-for-all-stakeholders/"><img src="press-img/lererhippeau-press.png" class="card-img-top" target="_blank" rel="noopener" alt="Gold Buzzer logo cover image"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Buzzer Secures $4 Million Seed Funding Led by Lerer Hippeau and Sapphire Sport</h5>
+                      <p class="card-text">Buzzer aggregates fragmented live sports streaming and rights into one cohesive and accessible platform. Sports fans can enjoy live, personalized content through either existing cable or over-the-top subscriptions or by instantaneously paying a micropayment in the app</p>
+                      <p>September 29th, 2020</p>
+                    </div>
+                  </div>
+                </div>                
+              </div>
             </main>
 
             <footer class="grandfoot mt-auto pb-3">

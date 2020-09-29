@@ -22,6 +22,11 @@ body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
+@font-face {
+    font-family:"proxima-nova";
+    font-display: swap;
+}
+
 h1 {
     font-family: proxima-nova,sans-serif;
     font-weight: 800;
@@ -271,8 +276,9 @@ input[type="email" i] {
 
 /* Footer */
 .grandfoot {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .5); padding: 0 1.5rem;
 }
+
 
 
 /* Responsive Styles */
@@ -280,12 +286,17 @@ input[type="email" i] {
 
 @media only screen and (max-width: 1400px) {
 .cover, .cover-error {padding: 0 .5rem; width: 100%;}
+.grandfoot {padding: 0 .5rem;}
+.wrapper nav {padding: 0px 0.5rem;}
 }
 
 @media only screen and (max-width: 992px) {
     .nav-item {padding: .5rem 0rem;}
     .nav-item a {padding-left: 0rem!important;} 
     .px-5 {display: block !important;}
+    .cover-strive, .cover-privacy, .cover-press, .cover-error, .cover {
+        margin: 50px 0px 50px !important;
+    }
 }
 
 
