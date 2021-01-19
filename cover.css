@@ -254,6 +254,11 @@ input[type="email" i] {
     width: 80%;
 }
 
+.privacy-center {
+padding: 0 1.5rem;
+    width: 100%;
+}
+
 .cover-press {
     padding: 0 1.5rem;
 }
